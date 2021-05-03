@@ -1,0 +1,62 @@
+body {
+    background-color: #3D3B3C;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*======================Header==============================*/
+
+#logo {
+    margin-left: 45%;
+}
+
+/*======================Subtittle==============================*/
+#subtittle {
+    text-align: center;
+
+
+    color: aliceblue;
+}
+
+
+/*======================Cards==============================*/
+
+.forgithub {
+    background-color: white;
+    border-radius: 0.25rem;
+
+    padding: 1rem 0 1rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+
+.forlinked {
+    background-color: white;
+    border-radius: 0.25rem;
+
+    padding: 1rem 0 1rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+
+.foryou {
+    background-color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 1rem 0 1rem;
+    text-align: center;
+}
+
+.forinsta {
+    background-color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding: 1rem 0 1rem;
+    text-align: center;
+}
+
+
+.cards {
+    font-family: 'Roboto', sans-serif;
+}
