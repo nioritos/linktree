@@ -1,62 +1,72 @@
 body {
-    background-color: #3D3B3C;
-    font-family: 'Poppins', sans-serif;
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 
-
-/*======================Header==============================*/
-
-#logo {
-    margin-left: 45%;
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/*======================Subtittle==============================*/
-#subtittle {
-    text-align: center;
-
-
-    color: aliceblue;
+a,li,ul {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
 }
 
-
-/*======================Cards==============================*/
-
-.forgithub {
-    background-color: white;
-    border-radius: 0.25rem;
-
-    padding: 1rem 0 1rem;
-    margin-bottom: 0.25rem;
-    text-align: center;
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.forlinked {
-    background-color: white;
-    border-radius: 0.25rem;
-
-    padding: 1rem 0 1rem;
-    margin-bottom: 0.25rem;
-    text-align: center;
+.about img {
+    max-width: 200px;
+    clip-path: circle();
 }
 
-.foryou {
-    background-color: white;
-    border-radius: 0.25rem;
-    margin-bottom: 0.25rem;
-    padding: 1rem 0 1rem;
-    text-align: center;
+.about h1 {
+    font-size: 18px;
+    font-weight: 500;
 }
-
-.forinsta {
-    background-color: white;
-    border-radius: 0.25rem;
-    margin-bottom: 0.25rem;
-    padding: 1rem 0 1rem;
-    text-align: center;
-}
-
 
 .cards {
-    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.card p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        transition: 1s;
+        width: 100%;
+    }
 }
